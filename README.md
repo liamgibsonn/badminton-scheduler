@@ -1,6 +1,6 @@
-# badminton-scheduler
+# Lancaster, Morecambe & District Badminton League Scheduler
 
-Calendar subscription feeds for the 2026/27 badminton league season — one `.ics` file per team, all three divisions.
+Calendar subscription feeds for the 2026/27 season — one `.ics` file per team, all three divisions.
 
 Live at: https://liamgibsonn.github.io/badminton-scheduler/
 
