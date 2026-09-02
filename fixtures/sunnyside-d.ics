@@ -1,0 +1,252 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//badminton-scheduler//League Fixtures 2026-27//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sunnyside D Fixtures
+X-WR-TIMEZONE:Europe/London
+X-WR-CALDESC:Division 3 fixtures for Sunnyside D\, 2026/27 season
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk01@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261001T193000
+DTEND;TZID=Europe/London:20261001T223000
+SUMMARY:(H) Sunnyside D v Sunnyside E
+LOCATION:Lancaster Royal Grammar School\, East Road\, Lancaster LA1 3EF
+DESCRIPTION:Division 3 - Week 1\n(H) Sunnyside D v Sunnyside E
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk02@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261008T200000
+DTEND;TZID=Europe/London:20261008T230000
+SUMMARY:(A) Storeys F v Sunnyside D
+LOCATION:University of Cumbria Sports Centre\, Bowerham Road\, Lancaster 
+ LA1 3JD
+DESCRIPTION:Division 3 - Week 2\n(A) Storeys F v Sunnyside D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk03@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261012T193000
+DTEND;TZID=Europe/London:20261012T223000
+SUMMARY:(A) Hest Bank C v Sunnyside D
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 3 - Week 3\n(A) Hest Bank C v Sunnyside D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk04@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261022T193000
+DTEND;TZID=Europe/London:20261022T223000
+SUMMARY:(H) Sunnyside D v BLS E
+LOCATION:Lancaster Royal Grammar School\, East Road\, Lancaster LA1 3EF
+DESCRIPTION:Division 3 - Week 4\n(H) Sunnyside D v BLS E
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk05@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261029T193000
+DTEND;TZID=Europe/London:20261029T223000
+SUMMARY:(H) Sunnyside D v BLS D
+LOCATION:Lancaster Royal Grammar School\, East Road\, Lancaster LA1 3EF
+DESCRIPTION:Division 3 - Week 5\n(H) Sunnyside D v BLS D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk06@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261105T200000
+DTEND;TZID=Europe/London:20261105T230000
+SUMMARY:(A) Storeys E v Sunnyside D
+LOCATION:University of Cumbria Sports Centre\, Bowerham Road\, Lancaster 
+ LA1 3JD
+DESCRIPTION:Division 3 - Week 6\n(A) Storeys E v Sunnyside D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk07@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261110T190000
+DTEND;TZID=Europe/London:20261110T220000
+SUMMARY:(A) Brookhouse B v Sunnyside D
+LOCATION:Ripley St Thomas CE Academy\, Ashton Road\, Lancaster LA1 4RS
+DESCRIPTION:Division 3 - Week 7\n(A) Brookhouse B v Sunnyside D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk08@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261119T193000
+DTEND;TZID=Europe/London:20261119T223000
+SUMMARY:(H) Sunnyside D v Asc F
+LOCATION:Lancaster Royal Grammar School\, East Road\, Lancaster LA1 3EF
+DESCRIPTION:Division 3 - Week 8\n(H) Sunnyside D v Ascension F
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk09@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261126T193000
+DTEND;TZID=Europe/London:20261126T223000
+SUMMARY:(H) Sunnyside D v Asc E
+LOCATION:Lancaster Royal Grammar School\, East Road\, Lancaster LA1 3EF
+DESCRIPTION:Division 3 - Week 9\n(H) Sunnyside D v Ascension E
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk10@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261202T193000
+DTEND;TZID=Europe/London:20261202T223000
+SUMMARY:(A) Sunnyside E v Sunnyside D
+LOCATION:Bay Leadership Academy\, Osborne Road\, Morecambe LA3 1AB
+DESCRIPTION:Division 3 - Week 10\n(A) Sunnyside E v Sunnyside D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk11@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261210T193000
+DTEND;TZID=Europe/London:20261210T223000
+SUMMARY:(H) Sunnyside D v Storeys F
+LOCATION:Lancaster Royal Grammar School\, East Road\, Lancaster LA1 3EF
+DESCRIPTION:Division 3 - Week 11\n(H) Sunnyside D v Storeys F
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk12@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261217T193000
+DTEND;TZID=Europe/London:20261217T223000
+SUMMARY:(H) Sunnyside D v Hest Bank C
+LOCATION:Lancaster Royal Grammar School\, East Road\, Lancaster LA1 3EF
+DESCRIPTION:Division 3 - Week 12\n(H) Sunnyside D v Hest Bank C
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk13@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270107T200000
+DTEND;TZID=Europe/London:20270107T230000
+SUMMARY:(A) BLS E v Sunnyside D
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 3 - Week 13\n(A) BLS E v Sunnyside D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk14@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270121T200000
+DTEND;TZID=Europe/London:20270121T230000
+SUMMARY:(A) BLS D v Sunnyside D
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 3 - Week 14\n(A) BLS D v Sunnyside D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk15@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270204T193000
+DTEND;TZID=Europe/London:20270204T223000
+SUMMARY:(H) Sunnyside D v Storeys E
+LOCATION:Lancaster Royal Grammar School\, East Road\, Lancaster LA1 3EF
+DESCRIPTION:Division 3 - Week 15\n(H) Sunnyside D v Storeys E
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk16@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270218T193000
+DTEND;TZID=Europe/London:20270218T223000
+SUMMARY:(H) Sunnyside D v Brookhouse B
+LOCATION:Lancaster Royal Grammar School\, East Road\, Lancaster LA1 3EF
+DESCRIPTION:Division 3 - Week 16\n(H) Sunnyside D v Brookhouse B
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk17@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270223T193000
+DTEND;TZID=Europe/London:20270223T223000
+SUMMARY:(A) Asc F v Sunnyside D
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 3 - Week 17\n(A) Ascension F v Sunnyside D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sunnyside-d-2026-wk18@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270302T193000
+DTEND;TZID=Europe/London:20270302T223000
+SUMMARY:(A) Asc E v Sunnyside D
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 3 - Week 18\n(A) Ascension E v Sunnyside D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

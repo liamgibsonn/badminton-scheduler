@@ -1,0 +1,259 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//badminton-scheduler//League Fixtures 2026-27//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hest Bank A Fixtures
+X-WR-TIMEZONE:Europe/London
+X-WR-CALDESC:Division 1 fixtures for Hest Bank A\, 2026/27 season
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk01@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261001T200000
+DTEND;TZID=Europe/London:20261001T230000
+SUMMARY:(A) Asc C v Hest Bank A
+LOCATION:Preesall
+DESCRIPTION:Division 1 - Week 1\n(A) Ascension C v Hest Bank A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk02@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261005T193000
+DTEND;TZID=Europe/London:20261005T223000
+SUMMARY:(H) Hest Bank A v BLS A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 2\n(H) Hest Bank A v BLS A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk03@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261012T193000
+DTEND;TZID=Europe/London:20261012T223000
+SUMMARY:(H) Hest Bank A v Sunnyside A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 3\n(H) Hest Bank A v Sunnyside A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk04@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261021T193000
+DTEND;TZID=Europe/London:20261021T223000
+SUMMARY:(A) KL B v Hest Bank A
+LOCATION:Kirkby Lonsdale
+DESCRIPTION:Division 1 - Week 4\n(A) Kirkby Lonsdale B v Hest Bank A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk05@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261028T190000
+DTEND;TZID=Europe/London:20261028T220000
+SUMMARY:(A) Storeys A v Hest Bank A
+LOCATION:University of Cumbria Sports Centre\, Bowerham Road\, Lancaster 
+ LA1 3JD
+DESCRIPTION:Division 1 - Week 5\n(A) Storeys A v Hest Bank A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk06@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261102T193000
+DTEND;TZID=Europe/London:20261102T223000
+SUMMARY:(H) Hest Bank A v Asc A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 6\n(H) Hest Bank A v Ascension A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk07@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261109T193000
+DTEND;TZID=Europe/London:20261109T223000
+SUMMARY:(H) Hest Bank A v Asc B
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 7\n(H) Hest Bank A v Ascension B
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk08@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261118T190000
+DTEND;TZID=Europe/London:20261118T220000
+SUMMARY:(A) Storeys B v Hest Bank A
+LOCATION:University of Cumbria Sports Centre\, Bowerham Road\, Lancaster 
+ LA1 3JD
+DESCRIPTION:Division 1 - Week 8\n(A) Storeys B v Hest Bank A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk09@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261125T193000
+DTEND;TZID=Europe/London:20261125T223000
+SUMMARY:(A) KL A v Hest Bank A
+LOCATION:Kirkby Lonsdale
+DESCRIPTION:Division 1 - Week 9\n(A) Kirkby Lonsdale A v Hest Bank A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk10@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261130T193000
+DTEND;TZID=Europe/London:20261130T223000
+SUMMARY:(H) Hest Bank A v Asc C
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 10\n(H) Hest Bank A v Ascension C
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk11@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261210T200000
+DTEND;TZID=Europe/London:20261210T230000
+SUMMARY:(A) BLS A v Hest Bank A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 11\n(A) BLS A v Hest Bank A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk12@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261216T193000
+DTEND;TZID=Europe/London:20261216T223000
+SUMMARY:(A) Sunnyside A v Hest Bank A
+LOCATION:Bay Leadership Academy\, Osborne Road\, Morecambe LA3 1AB
+DESCRIPTION:Division 1 - Week 12\n(A) Sunnyside A v Hest Bank A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk13@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270104T193000
+DTEND;TZID=Europe/London:20270104T223000
+SUMMARY:(H) Hest Bank A v KL B
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 13\n(H) Hest Bank A v Kirkby Lonsdale B
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk14@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270118T193000
+DTEND;TZID=Europe/London:20270118T223000
+SUMMARY:(H) Hest Bank A v Storeys A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 14\n(H) Hest Bank A v Storeys A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk15@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270202T193000
+DTEND;TZID=Europe/London:20270202T223000
+SUMMARY:(A) Asc A v Hest Bank A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 15\n(A) Ascension A v Hest Bank A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk16@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270216T193000
+DTEND;TZID=Europe/London:20270216T223000
+SUMMARY:(A) Asc B v Hest Bank A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 16\n(A) Ascension B v Hest Bank A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk17@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270222T193000
+DTEND;TZID=Europe/London:20270222T223000
+SUMMARY:(H) Hest Bank A v Storeys B
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 17\n(H) Hest Bank A v Storeys B
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hest-bank-a-2026-wk18@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270301T193000
+DTEND;TZID=Europe/London:20270301T223000
+SUMMARY:(H) Hest Bank A v KL A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 1 - Week 18\n(H) Hest Bank A v Kirkby Lonsdale A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

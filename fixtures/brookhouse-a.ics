@@ -1,0 +1,251 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//badminton-scheduler//League Fixtures 2026-27//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brookhouse A Fixtures
+X-WR-TIMEZONE:Europe/London
+X-WR-CALDESC:Division 2 fixtures for Brookhouse A\, 2026/27 season
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk01@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20260928T193000
+DTEND;TZID=Europe/London:20260928T223000
+SUMMARY:(A) Hest Bank B v Brookhouse A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 2 - Week 1\n(A) Hest Bank B v Brookhouse A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk02@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261006T190000
+DTEND;TZID=Europe/London:20261006T220000
+SUMMARY:(H) Brookhouse A v Asc D
+LOCATION:Ripley St Thomas CE Academy\, Ashton Road\, Lancaster LA1 4RS
+DESCRIPTION:Division 2 - Week 2\n(H) Brookhouse A v Ascension D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk03@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261013T190000
+DTEND;TZID=Europe/London:20261013T220000
+SUMMARY:(H) Brookhouse A v Sunnyside C
+LOCATION:Ripley St Thomas CE Academy\, Ashton Road\, Lancaster LA1 4RS
+DESCRIPTION:Division 2 - Week 3\n(H) Brookhouse A v Sunnyside C
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk04@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261021T190000
+DTEND;TZID=Europe/London:20261021T220000
+SUMMARY:(A) Storeys D v Brookhouse A
+LOCATION:University of Cumbria Sports Centre\, Bowerham Road\, Lancaster 
+ LA1 3JD
+DESCRIPTION:Division 2 - Week 4\n(A) Storeys D v Brookhouse A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk05@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261027T190000
+DTEND;TZID=Europe/London:20261027T220000
+SUMMARY:(H) Brookhouse A v Ingleton A
+LOCATION:Ripley St Thomas CE Academy\, Ashton Road\, Lancaster LA1 4RS
+DESCRIPTION:Division 2 - Week 5\n(H) Brookhouse A v Ingleton A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk06@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261105T200000
+DTEND;TZID=Europe/London:20261105T230000
+SUMMARY:(A) BLS B v Brookhouse A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 2 - Week 6\n(A) BLS B v Brookhouse A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk07@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261112T200000
+DTEND;TZID=Europe/London:20261112T230000
+SUMMARY:(A) BLS C v Brookhouse A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 2 - Week 7\n(A) BLS C v Brookhouse A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk08@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261117T190000
+DTEND;TZID=Europe/London:20261117T220000
+SUMMARY:(H) Brookhouse A v Storeys C
+LOCATION:Ripley St Thomas CE Academy\, Ashton Road\, Lancaster LA1 4RS
+DESCRIPTION:Division 2 - Week 8\n(H) Brookhouse A v Storeys C
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk09@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261124T190000
+DTEND;TZID=Europe/London:20261124T220000
+SUMMARY:(H) Brookhouse A v Sunnyside B
+LOCATION:Ripley St Thomas CE Academy\, Ashton Road\, Lancaster LA1 4RS
+DESCRIPTION:Division 2 - Week 9\n(H) Brookhouse A v Sunnyside B
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk10@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261201T190000
+DTEND;TZID=Europe/London:20261201T220000
+SUMMARY:(H) Brookhouse A v Hest Bank B
+LOCATION:Ripley St Thomas CE Academy\, Ashton Road\, Lancaster LA1 4RS
+DESCRIPTION:Division 2 - Week 10\n(H) Brookhouse A v Hest Bank B
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk11@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261208T193000
+DTEND;TZID=Europe/London:20261208T223000
+SUMMARY:(A) Asc D v Brookhouse A
+LOCATION:Carnforth High School Sports Hall\, Kellet Road\, Carnforth\, La
+ ncashire LA5 9LS
+DESCRIPTION:Division 2 - Week 11\n(A) Ascension D v Brookhouse A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk12@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20261216T193000
+DTEND;TZID=Europe/London:20261216T223000
+SUMMARY:(A) Sunnyside C v Brookhouse A
+LOCATION:Bay Leadership Academy\, Osborne Road\, Morecambe LA3 1AB
+DESCRIPTION:Division 2 - Week 12\n(A) Sunnyside C v Brookhouse A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk13@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270105T190000
+DTEND;TZID=Europe/London:20270105T220000
+SUMMARY:(H) Brookhouse A v Storeys D
+LOCATION:Ripley St Thomas CE Academy\, Ashton Road\, Lancaster LA1 4RS
+DESCRIPTION:Division 2 - Week 13\n(H) Brookhouse A v Storeys D
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk14@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270120T190000
+DTEND;TZID=Europe/London:20270120T220000
+SUMMARY:(A) Ingleton A v Brookhouse A
+LOCATION:Ingleton
+DESCRIPTION:Division 2 - Week 14\n(A) Ingleton A v Brookhouse A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk15@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270202T190000
+DTEND;TZID=Europe/London:20270202T220000
+SUMMARY:(H) Brookhouse A v BLS B
+LOCATION:Ripley St Thomas CE Academy\, Ashton Road\, Lancaster LA1 4RS
+DESCRIPTION:Division 2 - Week 15\n(H) Brookhouse A v BLS B
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk16@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270216T190000
+DTEND;TZID=Europe/London:20270216T220000
+SUMMARY:(H) Brookhouse A v BLS C
+LOCATION:Ripley St Thomas CE Academy\, Ashton Road\, Lancaster LA1 4RS
+DESCRIPTION:Division 2 - Week 16\n(H) Brookhouse A v BLS C
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk17@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270224T190000
+DTEND;TZID=Europe/London:20270224T220000
+SUMMARY:(A) Storeys C v Brookhouse A
+LOCATION:University of Cumbria Sports Centre\, Bowerham Road\, Lancaster 
+ LA1 3JD
+DESCRIPTION:Division 2 - Week 17\n(A) Storeys C v Brookhouse A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:brookhouse-a-2026-wk18@badminton-scheduler
+DTSTAMP:20260902T120000Z
+DTSTART;TZID=Europe/London:20270304T193000
+DTEND;TZID=Europe/London:20270304T223000
+SUMMARY:(A) Sunnyside B v Brookhouse A
+LOCATION:Lancaster Royal Grammar School\, East Road\, Lancaster LA1 3EF
+DESCRIPTION:Division 2 - Week 18\n(A) Sunnyside B v Brookhouse A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
