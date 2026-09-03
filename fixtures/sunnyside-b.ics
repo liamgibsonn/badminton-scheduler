@@ -218,7 +218,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270217T190000
 DTEND;TZID=Europe/London:20270217T220000
 SUMMARY:(A) Ingleton A v Sunnyside B
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 16\n(A) Ingleton A v Sunnyside B
 STATUS:CONFIRMED
 TRANSP:OPAQUE

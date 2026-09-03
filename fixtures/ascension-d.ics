@@ -173,7 +173,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261216T190000
 DTEND;TZID=Europe/London:20261216T220000
 SUMMARY:(A) Ingleton A v Asc D
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 12\n(A) Ingleton A v Ascension D
 STATUS:CONFIRMED
 TRANSP:OPAQUE

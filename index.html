@@ -6,51 +6,55 @@
 <title>Lancaster, Morecambe & District Badminton League Fixtures</title>
 <style>
   :root {
-    --bg:#f7f7f5; --card:#fff; --ink:#1a1a18; --muted:#6b6b66;
-    --line:#e3e3df; --accent:#2f6f4f; --accent-ink:#fff;
+    --bg:#faf9f6; --ink:#1c1b18; --muted:#6b6660; --line:#d9d5cb; --accent:#2f6f4f;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg:#16171a; --card:#1e2024; --ink:#ececeb; --muted:#9a9a95;
-      --line:#2e3136; --accent:#5aa87e; --accent-ink:#11150f;
+      --bg:#17181a; --ink:#e9e7e2; --muted:#98938a; --line:#333330; --accent:#7ab999;
     }
   }
   * { box-sizing:border-box; }
   body { margin:0; background:var(--bg); color:var(--ink);
-    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
-  .wrap { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
-  h1 { font-size:1.6rem; margin:0 0 4px; letter-spacing:-.01em; }
-  .sub { color:var(--muted); margin:0 0 28px; }
-  .how { background:var(--card); border:1px solid var(--line); border-radius:12px;
-    padding:16px 18px; margin-bottom:32px; }
-  .how h2 { font-size:.95rem; margin:0 0 8px; text-transform:uppercase;
-    letter-spacing:.06em; color:var(--muted); }
-  .how p { margin:0 0 8px; }
+    font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  .wrap { max-width:640px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-family:Georgia,"Iowan Old Style","Times New Roman",serif; font-weight:400;
+    font-size:1.7rem; line-height:1.25; margin:0 0 6px; letter-spacing:-.01em; }
+  .sub { color:var(--muted); font-size:.92rem; margin:0 0 30px;
+    padding-bottom:20px; border-bottom:1px solid var(--line); }
+  .how { margin:0 0 36px; padding-bottom:24px; border-bottom:1px solid var(--line); }
+  .how h2 { font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
+    font-style:italic; font-weight:400; font-size:1rem; margin:0 0 10px; color:var(--ink); }
+  .how p { margin:0 0 8px; color:var(--muted); font-size:.92rem; }
   .how p:last-child { margin-bottom:0; }
-  h2.div { font-size:1.05rem; margin:28px 0 10px; padding-bottom:6px;
-    border-bottom:2px solid var(--line); }
+  .how strong { color:var(--ink); font-weight:600; }
+  h2.div { font-family:Georgia,"Iowan Old Style","Times New Roman",serif; font-weight:400;
+    font-style:italic; font-size:1.15rem; margin:32px 0 4px; color:var(--ink); }
   .team { display:flex; align-items:center; justify-content:space-between;
-    gap:12px; flex-wrap:wrap; padding:10px 14px; background:var(--card);
-    border:1px solid var(--line); border-radius:10px; margin-bottom:8px; }
-  .name { font-weight:600; }
-  .btns { display:flex; gap:6px; }
-  .btn { display:inline-block; text-decoration:none; font-size:.82rem;
-    font-weight:600; padding:6px 12px; border-radius:999px;
-    border:1px solid var(--line); color:var(--ink); white-space:nowrap; }
-  .btn.ios, .btn.and { background:var(--accent); color:var(--accent-ink);
-    border-color:transparent; }
+    gap:16px; flex-wrap:wrap; padding:10px 0; border-bottom:1px solid var(--line); }
+  .name { font-weight:500; }
+  .btns { display:flex; align-items:center; gap:6px; }
+  .btn { display:inline-block; text-decoration:none; font-size:.78rem;
+    font-weight:500; padding:5px 11px; border:1px solid var(--line);
+    border-radius:4px; color:var(--ink); white-space:nowrap; }
+  .btn:hover { border-color:var(--accent); color:var(--accent); }
   .btn.dl { color:var(--muted); }
-  .btn:hover { filter:brightness(1.08); }
-  footer { margin-top:40px; color:var(--muted); font-size:.85rem;
-    border-top:1px solid var(--line); padding-top:16px; }
-  code { background:var(--card); border:1px solid var(--line);
-    border-radius:4px; padding:1px 5px; font-size:.9em; }
+  .toggle { display:inline-flex; align-items:center; justify-content:center;
+    width:22px; height:22px; padding:0; background:none; color:var(--muted);
+    border:none; cursor:pointer; }
+  .toggle:hover { color:var(--accent); }
+  .toggle svg { transition:transform .15s ease; }
+  .toggle[aria-expanded="true"] svg { transform:rotate(180deg); }
+  .fixtures { padding:2px 0 14px; border-bottom:1px solid var(--line); font-size:.83rem; color:var(--muted); }
+  .fixtures[hidden] { display:none; }
+  .fx { display:flex; align-items:baseline; justify-content:space-between; gap:16px; padding:3px 0; }
+  .fx-date { white-space:nowrap; }
+  footer { margin-top:24px; color:var(--muted); font-size:.85rem; }
+  code { color:var(--muted); font-size:.9em; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>Lancaster, Morecambe & District Badminton League</h1>
-  <h1>2026/27 Fixtures</h1>
+  <h1>Lancaster, Morecambe &amp; District Badminton League<br>2026/27 Fixtures</h1>
   <p class="sub">All three divisions &middot; subscribe once, updates automatically</p>
 
   <div class="how">
@@ -64,250 +68,431 @@
       <div class="team">
         <span class="name">Ascension A</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-a.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-a.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-a.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-a.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/ascension-a.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-ascension-a"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-ascension-a" hidden></div>
       <div class="team">
         <span class="name">Ascension B</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-b.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-b.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-b.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-b.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/ascension-b.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-ascension-b"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-ascension-b" hidden></div>
       <div class="team">
         <span class="name">Ascension C</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-c.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-c.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-c.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-c.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/ascension-c.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-ascension-c"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-ascension-c" hidden></div>
       <div class="team">
         <span class="name">BLS A</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-a.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-a.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-a.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-a.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/bls-a.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-bls-a"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-bls-a" hidden></div>
       <div class="team">
         <span class="name">Hest Bank A</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-a.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-a.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-a.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-a.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/hest-bank-a.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-hest-bank-a"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-hest-bank-a" hidden></div>
       <div class="team">
         <span class="name">Kirkby Lonsdale A</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/kirkby-lonsdale-a.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/kirkby-lonsdale-a.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/kirkby-lonsdale-a.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/kirkby-lonsdale-a.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/kirkby-lonsdale-a.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-kirkby-lonsdale-a"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-kirkby-lonsdale-a" hidden></div>
       <div class="team">
         <span class="name">Kirkby Lonsdale B</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/kirkby-lonsdale-b.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/kirkby-lonsdale-b.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/kirkby-lonsdale-b.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/kirkby-lonsdale-b.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/kirkby-lonsdale-b.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-kirkby-lonsdale-b"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-kirkby-lonsdale-b" hidden></div>
       <div class="team">
         <span class="name">Storeys A</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-a.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-a.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-a.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-a.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/storeys-a.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-storeys-a"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-storeys-a" hidden></div>
       <div class="team">
         <span class="name">Storeys B</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-b.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-b.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-b.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-b.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/storeys-b.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-storeys-b"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-storeys-b" hidden></div>
       <div class="team">
         <span class="name">Sunnyside A</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-a.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-a.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-a.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-a.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/sunnyside-a.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-sunnyside-a"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-sunnyside-a" hidden></div>
   <h2 class="div">Division 2</h2>
       <div class="team">
         <span class="name">Ascension D</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-d.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-d.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-d.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-d.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/ascension-d.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-ascension-d"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-ascension-d" hidden></div>
       <div class="team">
         <span class="name">BLS B</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-b.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-b.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-b.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-b.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/bls-b.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-bls-b"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-bls-b" hidden></div>
       <div class="team">
         <span class="name">BLS C</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-c.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-c.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-c.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-c.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/bls-c.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-bls-c"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-bls-c" hidden></div>
       <div class="team">
         <span class="name">Brookhouse A</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/brookhouse-a.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/brookhouse-a.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/brookhouse-a.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/brookhouse-a.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/brookhouse-a.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-brookhouse-a"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-brookhouse-a" hidden></div>
       <div class="team">
         <span class="name">Hest Bank B</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-b.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-b.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-b.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-b.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/hest-bank-b.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-hest-bank-b"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-hest-bank-b" hidden></div>
       <div class="team">
         <span class="name">Ingleton A</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ingleton-a.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ingleton-a.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ingleton-a.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ingleton-a.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/ingleton-a.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-ingleton-a"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-ingleton-a" hidden></div>
       <div class="team">
         <span class="name">Storeys C</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-c.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-c.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-c.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-c.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/storeys-c.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-storeys-c"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-storeys-c" hidden></div>
       <div class="team">
         <span class="name">Storeys D</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-d.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-d.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-d.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-d.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/storeys-d.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-storeys-d"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-storeys-d" hidden></div>
       <div class="team">
         <span class="name">Sunnyside B</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-b.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-b.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-b.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-b.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/sunnyside-b.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-sunnyside-b"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-sunnyside-b" hidden></div>
       <div class="team">
         <span class="name">Sunnyside C</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-c.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-c.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-c.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-c.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/sunnyside-c.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-sunnyside-c"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-sunnyside-c" hidden></div>
   <h2 class="div">Division 3</h2>
       <div class="team">
         <span class="name">Ascension E</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-e.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-e.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-e.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-e.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/ascension-e.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-ascension-e"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-ascension-e" hidden></div>
       <div class="team">
         <span class="name">Ascension F</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-f.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-f.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-f.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/ascension-f.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/ascension-f.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-ascension-f"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-ascension-f" hidden></div>
       <div class="team">
         <span class="name">BLS D</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-d.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-d.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-d.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-d.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/bls-d.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-bls-d"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-bls-d" hidden></div>
       <div class="team">
         <span class="name">BLS E</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-e.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-e.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-e.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/bls-e.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/bls-e.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-bls-e"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-bls-e" hidden></div>
       <div class="team">
         <span class="name">Brookhouse B</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/brookhouse-b.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/brookhouse-b.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/brookhouse-b.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/brookhouse-b.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/brookhouse-b.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-brookhouse-b"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-brookhouse-b" hidden></div>
       <div class="team">
         <span class="name">Hest Bank C</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-c.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-c.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-c.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/hest-bank-c.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/hest-bank-c.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-hest-bank-c"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-hest-bank-c" hidden></div>
       <div class="team">
         <span class="name">Storeys E</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-e.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-e.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-e.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-e.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/storeys-e.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-storeys-e"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-storeys-e" hidden></div>
       <div class="team">
         <span class="name">Storeys F</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-f.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-f.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-f.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/storeys-f.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/storeys-f.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-storeys-f"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-storeys-f" hidden></div>
       <div class="team">
         <span class="name">Sunnyside D</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-d.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-d.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-d.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-d.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/sunnyside-d.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-sunnyside-d"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-sunnyside-d" hidden></div>
       <div class="team">
         <span class="name">Sunnyside E</span>
         <span class="btns">
-          <a class="btn ios" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-e.ics">iPhone</a>
-          <a class="btn and" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-e.ics" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-e.ics">iPhone</a>
+          <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://liamgibsonn.github.io/badminton-scheduler/fixtures/sunnyside-e.ics" target="_blank" rel="noopener">Android</a>
           <a class="btn dl" href="fixtures/sunnyside-e.ics" download>.ics</a>
+        
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="fx-sunnyside-e"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </span>
       </div>
+      <div class="fixtures" id="fx-sunnyside-e" hidden></div>
 
   <footer>
     <p>Match times are taken from each club's home night. Every match is blocked out for 3 hours.</p>
-    <p>Venue addresses are included for Carnforth, University of Cumbria, Bay Leadership Academy, LRGS and Ripley. Preesall, Kirkby Lonsdale and Ingleton will be added soon.</p>
+    <p>Venue addresses are included for every venue.</p>
   </footer>
 </div>
+<script>
+(function () {
+  var WEEKDAYS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+  function formatDate(yyyymmdd) {
+    var year = parseInt(yyyymmdd.slice(0, 4), 10);
+    var month = parseInt(yyyymmdd.slice(4, 6), 10) - 1;
+    var day = parseInt(yyyymmdd.slice(6, 8), 10);
+    var d = new Date(year, month, day);
+    return WEEKDAYS[d.getDay()] + ' ' + day + ' ' + MONTHS[month];
+  }
+
+  function formatTime(hhmmss) {
+    return hhmmss.slice(0, 2) + ':' + hhmmss.slice(2, 4);
+  }
+
+  function unfold(text) {
+    var lines = text.replace(/\r\n/g, '\n').split('\n');
+    var out = [];
+    for (var i = 0; i < lines.length; i++) {
+      if (/^[ \t]/.test(lines[i]) && out.length) {
+        out[out.length - 1] += lines[i].slice(1);
+      } else {
+        out.push(lines[i]);
+      }
+    }
+    return out.join('\n');
+  }
+
+  function renderFixtures(icsText, teamName, panel) {
+    var unfolded = unfold(icsText);
+    var events = unfolded.split('BEGIN:VEVENT').slice(1);
+    var frag = document.createDocumentFragment();
+    for (var i = 0; i < events.length; i++) {
+      var ev = events[i];
+      var dtMatch = ev.match(/DTSTART;TZID=Europe\/London:(\d{8})T(\d{6})/);
+      var descMatch = ev.match(/DESCRIPTION:.*?\\n\(([HA])\) (.+?) v (.+?)\n/);
+      if (!dtMatch || !descMatch) continue;
+      var date = formatDate(dtMatch[1]);
+      var time = formatTime(dtMatch[2]);
+      var marker = descMatch[1];
+      var teamX = descMatch[2].trim();
+      var teamY = descMatch[3].trim();
+      var opponent = teamX === teamName ? teamY : teamX;
+
+      var row = document.createElement('div');
+      row.className = 'fx';
+      var left = document.createElement('span');
+      left.textContent = '(' + marker + ') ' + opponent;
+      var right = document.createElement('span');
+      right.className = 'fx-date';
+      right.textContent = time + ' · ' + date;
+      row.appendChild(left);
+      row.appendChild(right);
+      frag.appendChild(row);
+    }
+    panel.appendChild(frag);
+  }
+
+  document.querySelectorAll('.toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var panel = document.getElementById(btn.getAttribute('aria-controls'));
+      var open = btn.getAttribute('aria-expanded') === 'true';
+
+      if (!open && !panel.dataset.loaded) {
+        var team = btn.closest('.team');
+        var teamName = team.querySelector('.name').textContent;
+        var icsHref = team.querySelector('.btn.dl').getAttribute('href');
+        panel.textContent = 'Loading\u2026';
+        fetch(icsHref)
+          .then(function (res) {
+            if (!res.ok) throw new Error('fetch failed');
+            return res.text();
+          })
+          .then(function (text) {
+            panel.textContent = '';
+            renderFixtures(text, teamName, panel);
+            panel.dataset.loaded = 'true';
+          })
+          .catch(function () {
+            panel.textContent = 'Could not load fixtures.';
+          });
+      }
+
+      btn.setAttribute('aria-expanded', String(!open));
+      panel.hidden = open;
+    });
+  });
+})();
+</script>
 </body>
 </html>

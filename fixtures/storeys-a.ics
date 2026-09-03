@@ -32,7 +32,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20260930T193000
 DTEND;TZID=Europe/London:20260930T223000
 SUMMARY:(A) KL B v Storeys A
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 1\n(A) Kirkby Lonsdale B v Storeys A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -44,7 +45,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261008T200000
 DTEND;TZID=Europe/London:20261008T230000
 SUMMARY:(A) Asc C v Storeys A
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 2\n(A) Ascension C v Storeys A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -121,7 +123,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261118T193000
 DTEND;TZID=Europe/London:20261118T223000
 SUMMARY:(A) KL A v Storeys A
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 8\n(A) Kirkby Lonsdale A v Storeys A
 STATUS:CONFIRMED
 TRANSP:OPAQUE

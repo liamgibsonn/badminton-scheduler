@@ -44,7 +44,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261007T193000
 DTEND;TZID=Europe/London:20261007T223000
 SUMMARY:(H) KL A v Asc A
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 2\n(H) Kirkby Lonsdale A v Ascension A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -56,7 +57,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261014T193000
 DTEND;TZID=Europe/London:20261014T223000
 SUMMARY:(H) KL A v KL B
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 3\n(H) Kirkby Lonsdale A v Kirkby Lonsdale 
  B
 STATUS:CONFIRMED
@@ -82,7 +84,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261028T193000
 DTEND;TZID=Europe/London:20261028T223000
 SUMMARY:(H) KL A v Asc B
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 5\n(H) Kirkby Lonsdale A v Ascension B
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -94,7 +97,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261105T200000
 DTEND;TZID=Europe/London:20261105T230000
 SUMMARY:(A) Asc C v KL A
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 6\n(A) Ascension C v Kirkby Lonsdale A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -119,7 +123,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261118T193000
 DTEND;TZID=Europe/London:20261118T223000
 SUMMARY:(H) KL A v Storeys A
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 8\n(H) Kirkby Lonsdale A v Storeys A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -131,7 +136,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261125T193000
 DTEND;TZID=Europe/London:20261125T223000
 SUMMARY:(H) KL A v Hest Bank A
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 9\n(H) Kirkby Lonsdale A v Hest Bank A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -143,7 +149,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261202T193000
 DTEND;TZID=Europe/London:20261202T223000
 SUMMARY:(H) KL A v Sunnyside A
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 10\n(H) Kirkby Lonsdale A v Sunnyside A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -168,7 +175,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261216T193000
 DTEND;TZID=Europe/London:20261216T223000
 SUMMARY:(A) KL B v KL A
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 12\n(A) Kirkby Lonsdale B v Kirkby Lonsdale
   A
 STATUS:CONFIRMED
@@ -181,7 +189,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270106T193000
 DTEND;TZID=Europe/London:20270106T223000
 SUMMARY:(H) KL A v Storeys B
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 13\n(H) Kirkby Lonsdale A v Storeys B
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -206,7 +215,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270203T193000
 DTEND;TZID=Europe/London:20270203T223000
 SUMMARY:(H) KL A v Asc C
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 15\n(H) Kirkby Lonsdale A v Ascension C
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -218,7 +228,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270217T193000
 DTEND;TZID=Europe/London:20270217T223000
 SUMMARY:(H) KL A v BLS A
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 16\n(H) Kirkby Lonsdale A v BLS A
 STATUS:CONFIRMED
 TRANSP:OPAQUE

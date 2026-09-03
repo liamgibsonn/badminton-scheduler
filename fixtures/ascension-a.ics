@@ -45,7 +45,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261007T193000
 DTEND;TZID=Europe/London:20261007T223000
 SUMMARY:(A) KL A v Asc A
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 2\n(A) Kirkby Lonsdale A v Ascension A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -70,7 +71,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261022T200000
 DTEND;TZID=Europe/London:20261022T230000
 SUMMARY:(A) Asc C v Asc A
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 4\n(A) Ascension C v Ascension A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -198,7 +200,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270120T193000
 DTEND;TZID=Europe/London:20270120T223000
 SUMMARY:(A) KL B v Asc A
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 14\n(A) Kirkby Lonsdale B v Ascension A
 STATUS:CONFIRMED
 TRANSP:OPAQUE

@@ -32,7 +32,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261001T200000
 DTEND;TZID=Europe/London:20261001T230000
 SUMMARY:(H) Asc C v Hest Bank A
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 1\n(H) Ascension C v Hest Bank A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -44,7 +45,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261008T200000
 DTEND;TZID=Europe/London:20261008T230000
 SUMMARY:(H) Asc C v Storeys A
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 2\n(H) Ascension C v Storeys A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -69,7 +71,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261022T200000
 DTEND;TZID=Europe/London:20261022T230000
 SUMMARY:(H) Asc C v Asc A
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 4\n(H) Ascension C v Ascension A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -93,7 +96,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261105T200000
 DTEND;TZID=Europe/London:20261105T230000
 SUMMARY:(H) Asc C v KL A
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 6\n(H) Ascension C v Kirkby Lonsdale A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -131,7 +135,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261126T200000
 DTEND;TZID=Europe/London:20261126T230000
 SUMMARY:(H) Asc C v KL B
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 9\n(H) Ascension C v Kirkby Lonsdale B
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -169,7 +174,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261217T200000
 DTEND;TZID=Europe/London:20261217T230000
 SUMMARY:(H) Asc C v BLS A
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 12\n(H) Ascension C v BLS A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -194,7 +200,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270121T200000
 DTEND;TZID=Europe/London:20270121T230000
 SUMMARY:(H) Asc C v Sunnyside A
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 14\n(H) Ascension C v Sunnyside A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -206,7 +213,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270203T193000
 DTEND;TZID=Europe/London:20270203T223000
 SUMMARY:(A) KL A v Asc C
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 15\n(A) Kirkby Lonsdale A v Ascension C
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -218,7 +226,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270218T200000
 DTEND;TZID=Europe/London:20270218T230000
 SUMMARY:(H) Asc C v Storeys B
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 16\n(H) Ascension C v Storeys B
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -230,7 +239,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270225T200000
 DTEND;TZID=Europe/London:20270225T230000
 SUMMARY:(H) Asc C v Asc B
-LOCATION:Preesall
+LOCATION:Preesall Community Sports Centre\, Sandy Lane\, Preesall\, Lancash
+ ire\, FY6 0ER
 DESCRIPTION:Division 1 - Week 17\n(H) Ascension C v Ascension B
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -242,7 +252,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270303T193000
 DTEND;TZID=Europe/London:20270303T223000
 SUMMARY:(A) KL B v Asc C
-LOCATION:Kirkby Lonsdale
+LOCATION:QES Sports Hall (Lunesdale Sports Centre)\, Kendal Road\, Kirkby L
+ onsdale\, Cumbria\, LA6 2FQ
 DESCRIPTION:Division 1 - Week 18\n(A) Kirkby Lonsdale B v Ascension C
 STATUS:CONFIRMED
 TRANSP:OPAQUE

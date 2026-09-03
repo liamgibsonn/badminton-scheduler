@@ -193,7 +193,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270120T190000
 DTEND;TZID=Europe/London:20270120T220000
 SUMMARY:(A) Ingleton A v Brookhouse A
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 14\n(A) Ingleton A v Brookhouse A
 STATUS:CONFIRMED
 TRANSP:OPAQUE

@@ -45,7 +45,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261007T190000
 DTEND;TZID=Europe/London:20261007T220000
 SUMMARY:(H) Ingleton A v Sunnyside C
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 2\n(H) Ingleton A v Sunnyside C
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -70,7 +71,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261021T190000
 DTEND;TZID=Europe/London:20261021T220000
 SUMMARY:(H) Ingleton A v Storeys C
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 4\n(H) Ingleton A v Storeys C
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -94,7 +96,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261104T190000
 DTEND;TZID=Europe/London:20261104T220000
 SUMMARY:(H) Ingleton A v BLS C
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 6\n(H) Ingleton A v BLS C
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -118,7 +121,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261118T190000
 DTEND;TZID=Europe/London:20261118T220000
 SUMMARY:(H) Ingleton A v BLS B
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 8\n(H) Ingleton A v BLS B
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -143,7 +147,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261202T190000
 DTEND;TZID=Europe/London:20261202T220000
 SUMMARY:(H) Ingleton A v Storeys D
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 10\n(H) Ingleton A v Storeys D
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -167,7 +172,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261216T190000
 DTEND;TZID=Europe/London:20261216T220000
 SUMMARY:(H) Ingleton A v Asc D
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 12\n(H) Ingleton A v Ascension D
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -192,7 +198,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270120T190000
 DTEND;TZID=Europe/London:20270120T220000
 SUMMARY:(H) Ingleton A v Brookhouse A
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 14\n(H) Ingleton A v Brookhouse A
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -217,7 +224,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270217T190000
 DTEND;TZID=Europe/London:20270217T220000
 SUMMARY:(H) Ingleton A v Sunnyside B
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 16\n(H) Ingleton A v Sunnyside B
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -242,7 +250,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20270303T190000
 DTEND;TZID=Europe/London:20270303T220000
 SUMMARY:(H) Ingleton A v Hest Bank B
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 18\n(H) Ingleton A v Hest Bank B
 STATUS:CONFIRMED
 TRANSP:OPAQUE

@@ -148,7 +148,8 @@ DTSTAMP:20260902T120000Z
 DTSTART;TZID=Europe/London:20261202T190000
 DTEND;TZID=Europe/London:20261202T220000
 SUMMARY:(A) Ingleton A v Storeys D
-LOCATION:Ingleton
+LOCATION:Ingleborough Community Centre\, Main Street\, Ingleton\, Carnforth
+ \, Lancashire\, LA6 3HG
 DESCRIPTION:Division 2 - Week 10\n(A) Ingleton A v Storeys D
 STATUS:CONFIRMED
 TRANSP:OPAQUE
