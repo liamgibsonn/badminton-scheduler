@@ -30,7 +30,8 @@
   h2.div { font-family:Georgia,"Iowan Old Style","Times New Roman",serif; font-weight:400;
     font-style:italic; font-size:1.15rem; margin:32px 0 4px; color:var(--ink); }
   .team { display:flex; align-items:center; justify-content:space-between;
-    gap:16px; flex-wrap:wrap; padding:10px 0; border-bottom:1px solid var(--line); }
+    gap:16px; flex-wrap:wrap; padding:10px 0; border-bottom:1px solid var(--line);
+    cursor:pointer; }
   .name { font-weight:500; }
   .btns { display:flex; align-items:center; gap:6px; }
   .btn { display:inline-block; text-decoration:none; font-size:.78rem;
@@ -463,33 +464,38 @@
     panel.appendChild(frag);
   }
 
-  document.querySelectorAll('.toggle').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var panel = document.getElementById(btn.getAttribute('aria-controls'));
-      var open = btn.getAttribute('aria-expanded') === 'true';
+  function toggleTeam(team) {
+    var btn = team.querySelector('.toggle');
+    var panel = document.getElementById(btn.getAttribute('aria-controls'));
+    var open = btn.getAttribute('aria-expanded') === 'true';
 
-      if (!open && !panel.dataset.loaded) {
-        var team = btn.closest('.team');
-        var teamName = team.querySelector('.name').textContent;
-        var icsHref = team.querySelector('.btn.dl').getAttribute('href');
-        panel.textContent = 'Loading\u2026';
-        fetch(icsHref)
-          .then(function (res) {
-            if (!res.ok) throw new Error('fetch failed');
-            return res.text();
-          })
-          .then(function (text) {
-            panel.textContent = '';
-            renderFixtures(text, teamName, panel);
-            panel.dataset.loaded = 'true';
-          })
-          .catch(function () {
-            panel.textContent = 'Could not load fixtures.';
-          });
-      }
+    if (!open && !panel.dataset.loaded) {
+      var teamName = team.querySelector('.name').textContent;
+      var icsHref = team.querySelector('.btn.dl').getAttribute('href');
+      panel.textContent = 'Loading\u2026';
+      fetch(icsHref)
+        .then(function (res) {
+          if (!res.ok) throw new Error('fetch failed');
+          return res.text();
+        })
+        .then(function (text) {
+          panel.textContent = '';
+          renderFixtures(text, teamName, panel);
+          panel.dataset.loaded = 'true';
+        })
+        .catch(function () {
+          panel.textContent = 'Could not load fixtures.';
+        });
+    }
 
-      btn.setAttribute('aria-expanded', String(!open));
-      panel.hidden = open;
+    btn.setAttribute('aria-expanded', String(!open));
+    panel.hidden = open;
+  }
+
+  document.querySelectorAll('.team').forEach(function (team) {
+    team.addEventListener('click', function (e) {
+      if (e.target.closest('a')) return;
+      toggleTeam(team);
     });
   });
 })();
